@@ -56,8 +56,3 @@ A connection string fica em `appsettings.json`, na chave `ConnectionStrings:Defa
 | POST   | `/api/estoque`       | Registra uma entrada de estoque             |
 | DELETE | `/api/estoque/{id}`  | Exclui um registro de estoque               |
 
-## Próximos passos sugeridos
-
-- Trocar `EnsureCreated()` por **Migrations** do EF Core, para versionar o schema do banco.
-- Adicionar middleware global de tratamento de exceções.
-- Escrever testes unitários para `ServiceEstoque` (agora possível graças às interfaces `IProdutoRepository`/`IEstoqueRepository`).
