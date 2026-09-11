@@ -1,0 +1,39 @@
+# Diretórios de build
+[Bb]in/
+[Oo]bj/
+
+# Diretórios do Visual Studio / Rider / VS Code
+.vs/
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Resultados de build
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Ll]og/
+[Ll]ogs/
+
+# Banco de dados SQLite local (não deve ir para o repositório)
+*.db
+*.db-shm
+*.db-wal
+
+# NuGet
+*.nupkg
+**/packages/*
+!**/packages/build/
+
+# Arquivos de configuração sensíveis (segredos locais)
+appsettings.Development.json
+appsettings.*.local.json
+secrets.json
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
